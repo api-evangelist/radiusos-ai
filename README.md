@@ -1,4 +1,4 @@
-# radiusos-ai
+# RadiusOS
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-radiusos-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://radiusos.ai/
+RadiusOS provides an AI‑powered operating system for trades, realtors, and solo service businesses. It combines mobile walkthrough capture, automated quote and invoice generation, and AI‑drafted follow‑ups into a single flat‑rate platform. Users can manage customers, schedule jobs, and integrate Gmail, Google Calendar, Stripe, and Zapier, all from a unified dashboard. Pricing starts at $19 per month for up to 50 customers, with a free forever tier offering limited features.
+
+**Areas:** AI · Trades · CRM · SaaS · Automation
+
+## RadiusOS on APIs.io
+
+Everything profiled for RadiusOS is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/radiusos-ai/](https://apis.io/providers/radiusos-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [RadiusOS Public API](https://apis.io/apis/radiusos-ai/radiusos-public-api/) — Public REST API for Zapier and custom integrations, workspace‑scoped, with base URL https://www.radiusos.ai
+- [RadiusOS API](https://apis.io/apis/radiusos-ai/radiusos-ai-api/) — RadiusOS API as documented publicly: 11 operations. Contract generated from the documentation by API Evangelist (2026-11-22); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Radiusos Ai Webhooks](https://apis.io/asyncapis/radiusos-ai/radiusos-ai-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiZapierTriggersContactsResponse](https://apis.io/schemas/radiusos-ai/radiusos-ai-get-api-zapier-triggers-contacts-response/)
+- [GetApiZapierTriggersTasksResponse](https://apis.io/schemas/radiusos-ai/radiusos-ai-get-api-zapier-triggers-tasks-response/)
+- [PostApiZapierActionsCreateContactRequest](https://apis.io/schemas/radiusos-ai/radiusos-ai-post-api-zapier-actions-create-contact-request/)
+- [PostApiZapierActionsCreateContactResponse](https://apis.io/schemas/radiusos-ai/radiusos-ai-post-api-zapier-actions-create-contact-response/)
+- [PostApiZapierActionsCreateTaskRequest](https://apis.io/schemas/radiusos-ai/radiusos-ai-post-api-zapier-actions-create-task-request/)
+- [PostApiZapierActionsCreateTaskResponse](https://apis.io/schemas/radiusos-ai/radiusos-ai-post-api-zapier-actions-create-task-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Radiusos Ai Context](https://apis.io/jsonld/radiusos-ai/radiusos-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RadiusOS API Rules](https://apis.io/rules/radiusos-ai/radiusos-ai-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [RadiusOS Domain Security](https://apis.io/security/radiusos-ai/radiusos-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [RadiusOS Plans Pricing](https://apis.io/plans/radiusos-ai/radiusos-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://radiusos.ai/)
+- [Documentation](https://www.radiusos.ai/docs/api)
+- [Getting started](https://www.radiusos.ai/help/getting-started)
+- [API reference](https://www.radiusos.ai/docs/api)
+- [Pricing](https://www.radiusos.ai/pricing)
+- [Sign up](https://www.radiusos.ai/sign-up)
+- [Support](https://www.radiusos.ai/help)
+- [Blog](https://www.radiusos.ai/blog)
+- [Terms of service](https://www.radiusos.ai/legal/terms)
+- [Privacy policy](https://www.radiusos.ai/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 49.9** — developing · rubric 0.28.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 61.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.1 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 59.1 |
+
+**Agent readiness 26.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/radiusos-ai/](https://apis.io/providers/radiusos-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RadiusOS: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/radiusos-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
